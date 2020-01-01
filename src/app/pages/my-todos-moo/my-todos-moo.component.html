@@ -1,0 +1,8 @@
+<p>my-todos-moo works!</p>
+
+
+<ul>
+    <li *ngFor="let t of svc.todos | async">
+        {{ t.title }}
+    </li>
+</ul>
